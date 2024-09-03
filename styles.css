@@ -19,6 +19,23 @@ body {
     /* Remove a margem padrão */
     padding: 0;
     /* Remove o padding padrão */
+    background-image: linear-gradient(to right, #eea86c, #e7b794, #eeb78b, #f8f8ea);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+
+    }
 }
 
 /* Estiliza os títulos h1 */
@@ -55,27 +72,7 @@ section button {
     padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
     border: none; /* Remove a borda padrão */
     border-radius: 1.5rem; /* Borda arredondada */
-    background-image: linear-gradient(to right, #fad9bd, #e7b794, #eeb78b, #f8f8ea);
-    background-size: 500% 500%;
-    border-radius: 5px;
-    padding: 10px;
-    animation: gradient 15s ease infinite;
-
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0%;
-
-    }
-}
+   
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
@@ -83,7 +80,7 @@ section button {
 section button:hover {
     background-color: #6e6656; /* Muda a cor de fundo ao passar o mouse */
     box-shadow: 0 4px 8px rgba(83, 83, 83, 0.2); /* Adiciona uma sombra mais intensa */
-}^
+}
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
     width: 60rem; /* Largura máxima da caixa de resultados */
