@@ -1,7 +1,8 @@
-let dados = [
+let dados = 
+[
     {
         titulo: "Caixa selada",
-        descrição: "As caixas acústicas seladas, ou suspensão acústica, são caracterizadas pelo quase completo isolamento da massa de ar traseira do falante em relação à da dianteira. Como o ar dentro da caixa é comprimido e expandido conforme a movimentação do cone do alto-falante, a pressão interna tem efeito similar a uma mola, expelindo o cone quando ele entra e puxando o cone quando ele sai. Esta é uma caixa relativamente fácil de ser projetada, sendo sua única variável o volume interno de ar livre.",
+        descricao: "As caixas acústicas seladas, ou suspensão acústica, são caracterizadas pelo quase completo isolamento da massa de ar traseira do falante em relação à da dianteira. Como o ar dentro da caixa é comprimido e expandido conforme a movimentação do cone do alto-falante, a pressão interna tem efeito similar a uma mola, expelindo o cone quando ele entra e puxando o cone quando ele sai. Esta é uma caixa relativamente fácil de ser projetada, sendo sua única variável o volume interno de ar livre.",
         link: "https://pt.wikipedia.org/wiki/Ficheiro:Geschlossenes_Lautsprechergeh%C3%A4use_(enclosure).png"
     },
     {
@@ -39,4 +40,4 @@ let dados = [
         descricao: "As caixas bandpass combinam as características das caixas seladas e dutadas, possuindo dois orifícios: um para a entrada do ar e outro para a saída. Essa configuração permite um controle mais preciso da resposta de frequência.",
         link: "https://en.wikipedia.org/wiki/Band-pass_filter" // Substitua por um link relevante
     },
-];
+]
